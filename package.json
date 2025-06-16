@@ -1,0 +1,26 @@
+{
+    "name": "futurefirst-prototype",
+    "version": "1.0.0",
+    "description": "Functional prototype for FutureFirst: Financial Planning Assistant",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "keywords": [
+      "financial",
+      "planning",
+      "prototype",
+      "express",
+      "futurefirst"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    }
+  }
+  
