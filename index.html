@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>FutureFirst POC</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>FutureFirst: Financial Planning Assistant</h1>
+
+  <form id="concernForm">
+    <p>What are you most concerned about?</p>
+    <label><input type="checkbox" name="concern" value="retirement"> Retirement</label>
+    <label><input type="checkbox" name="concern" value="education"> Funding My Child’s Education</label>
+    <label><input type="checkbox" name="concern" value="protection"> Protecting My Assets</label>
+    <label><input type="checkbox" name="concern" value="legacy"> Leaving a Legacy</label>
+    <button type="submit">Get Guidance</button>
+  </form>
+
+  <div id="advice" class="advice-box"></div>
+
+  <div id="contactForm" class="form-box" style="display:none;">
+    <form id="contactFormElement">
+      <h2>Want personalized help?</h2>
+      <input type="text"  name="name"  placeholder="Your Name"  required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="thankYou" class="thank-you" style="display:none;">
+      <p>🎉 Thanks! We’ll be in touch soon with personalized guidance.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
